@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Print alphabet in lower and uppercase, followed by a new line
+ * Discription: Print alphabet in lower and uppercase, followed by a new line
  * Return: 0
  */
 int main(void)
@@ -19,6 +19,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
