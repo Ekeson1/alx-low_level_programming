@@ -3,9 +3,9 @@
  /**
   * print_rev - prints a string in reverse, followed by a new line
   * @s: input string
-  * Return: No return
+  * Return: 0 is success
   */
-void print_rev(char *s)
+void print_rev(char *s);
 {
 	int count = 0;
 
