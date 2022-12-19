@@ -5,7 +5,7 @@
  * Description: If add number of chars, print (length - 1) /2
  */
 
-void puts_half(char)
+void puts_half(char string)
 {
 	int i;
 	for (i = 0; str[i] != '\0'; i++)
