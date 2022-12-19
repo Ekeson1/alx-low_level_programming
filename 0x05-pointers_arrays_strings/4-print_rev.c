@@ -5,7 +5,7 @@
   * @s: input string
   * Return: No return
   */
-void print_reverse(char *s)
+void print_rev(char *s)
 {
 	int count = 0;
 
