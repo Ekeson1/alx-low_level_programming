@@ -6,8 +6,6 @@
  * Description: This will reverse a string
  * Return: 0 is success
  *
- * Description: This will reverse a string
- * Return: 0 is success
  */
 void rev_string(char *s)
 {
