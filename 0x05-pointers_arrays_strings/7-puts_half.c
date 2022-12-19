@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * puts_half - prints half of a check
- * Return: 0 is success
+ * puts_half - print second half of a string
+ * @str: char array string type
+ * Description: If add number of chars, print (length - 1) /2
  */
-void puts_half(char *str)
+
+void puts_half(char "str")
 {
-	int string 0, n;
-
-	while (str[string] != '\0')
-		string++;
-	if string + 1 % 2 != '0')
-		n = (string - 1) / 2;
-	else
-		n = (string / 2);
-	n++;
-
-	for (string = n; str[string] != '\0'; string++)
-		_putchar(str[string]);_putchar('\');
+	int i;
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	i++;
+	for (i /= 2; str[i] != '\0\; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
